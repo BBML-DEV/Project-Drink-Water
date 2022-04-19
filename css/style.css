@@ -1,0 +1,112 @@
+/*variables*/
+:root{
+    --background-color: #3494E4;
+    --border-color-detalhe: #144fc6;
+}
+/*body*/
+body{
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+}
+/*reset padding and margin*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*titles*/
+h1{
+    text-align: center;
+    color: #FFF;
+    margin:10px 0px 0px 0px;
+}
+h3{
+    margin: 30px 0px;
+}
+
+/*cup*/
+.cup{
+    background-color: #FFF;
+    border: 4px solid var(--border-color-detalhe);
+    color: var(--border-color-detalhe);
+    border-radius: 0px 0px 40px 40px;
+    height: 350px;
+    width: 150px;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/*cups*/
+.cups{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    text-align: center;
+}
+
+.cup.cup-small{
+    height: 95px;
+    width:50px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 0 0 15px 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.cup-small.full {
+    background-color: #6AB3F8;
+    color: #fff;
+  }
+
+
+/*remained*/
+.remained span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+.remained small{
+    font-size: 12px;
+}
+
+#remained{
+    color: var(--border-color-detalhe);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+#remained h3{
+    color: var(--border-color-detalhe);
+    margin: 0px;
+}
+
+/*text*/
+.text{
+    margin-bottom: 50px;
+}
+
+
+/*porcentage*/
+.percentage {
+    background-color: #6AB3F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    height: 0;
+    transition: 0.3s ease;
+  }
